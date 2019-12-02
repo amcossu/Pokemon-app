@@ -1,3 +1,4 @@
+/*
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pokemon-app';
-}
+}*/
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'pokemon-app',
+  template: `<h1>Hello {{name}}</h1>`,
+})
+export class AppComponent  { name = 'Angular'; }
