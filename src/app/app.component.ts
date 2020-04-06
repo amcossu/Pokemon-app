@@ -10,8 +10,7 @@ export class AppComponent {
   title = 'pokemon-app';
 }*/
 
-import { Component } from '@angular/core';
-import { OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { Pokemon } from './pokemon';
 import { POKEMONS } from './mock-pokemons';
